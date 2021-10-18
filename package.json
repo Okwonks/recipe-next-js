@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "start:sanity": "cd studio/ && sanity start",
+    "deploy:sanity": "cd studio/ && sanity deploy",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "11.0.1",
+    "next-sanity": "^0.4.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
